@@ -14,7 +14,7 @@ pipeline {
 
     stage('build') {
       steps {
-        sh 'python *test'
+        sh 'python *test.py'
       }
     }
 
